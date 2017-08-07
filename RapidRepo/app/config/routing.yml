@@ -1,0 +1,11 @@
+rapid_resto_membre:
+    resource: "@RapidRestoMembreBundle/Resources/config/routing.yml"
+    prefix:   /membre/
+
+rapid_resto_site:
+    resource: "@RapidRestoSiteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

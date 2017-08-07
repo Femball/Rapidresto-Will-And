@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block menu %}
+    {{ parent() }}
+{% endblock %}
+{% block body %}
+    <div class="container-fluid">
+        <row>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 canape">
+                <img src="{{ asset('bundles/RapidResto/img/canape-1024x683.png') }}" alt="image_accueil" width="100%" class="canape">
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 horaires" style="text-align: center;">
+                <div class="panel panel-primary" width="70px">
+                    <div style="color: #35335c; font-size: 24px; text-align: center; background: #ff7d17; border-radius: 5px;" class="horaires"><b><span class="glyphicon glyphicon-time"><b> Actuellement : </b></span></b></div></br>
+                    <div id="message">
+                        <div class="resto-dispo"><b><i>Chez Soso</i></b></div><span id="chez_soso"></span>
+                        <div class="resto-dispo"><b><i>Hom-Burger</i></b></div><span id="hom_burger"></span>
+                        <div class="resto-dispo"><b><i>Madame Noy</i></b></div><span id="madame_noy"></span>
+                        <div class="resto-dispo"><b><i>McDonald's</i></b></div><span id="mac_do"></span>
+                        <div class="resto-dispo"><b><i>Pasta Nostra</i></b></div><span id="pasta_nostra"></span>
+                        <div class="resto-dispo"><b><i>Pablo Pizza</i></b></div><span id="pablo_pizza"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </row>
+    </div>
+{% endblock %}
+{% block footer %}
+    {{ parent() }}
+{% endblock %}
+{% block javascripts %}
+    <script type="text/javascript" src="{{ asset('bundles/RapidResto/js/horaires.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('bundles/RapidResto/js/affichageHoraires.js') }}"></script>
+    <script>
+        {#setInterval('load_message()', 1000);#}
+        {#function load_message() {#}
+            {#$('#message').load({{  asset('bundles/RapidResto/js/affichageHoraires.js') }});#}
+        {#}#}
+    </script>
+{% endblock %}

@@ -1,0 +1,4 @@
+services:
+#    rapid_resto_site.example:
+#        class: RapidResto\SiteBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
