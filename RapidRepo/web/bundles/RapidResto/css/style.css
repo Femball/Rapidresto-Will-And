@@ -1,0 +1,92 @@
+body {
+    background-color: #35353c;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center !important;
+    font-size: 4.5em !important;
+}
+
+.titre {
+    color: #ff7d17;
+    text-decoration: none !important;
+}
+
+.navigation{
+    background-color: #35353c;
+
+}
+
+.navigation button {
+    color: white;
+    background-color: #ff7d17;
+    font-style: italic;
+}
+
+.navbar-inverse {
+    color: #35353c;
+    background-color: #ff7d17;
+
+}
+
+.info-entete{
+    background-color: #ff7d17;
+    text-decoration: none !important;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.info-entete a{
+    background-color: #ff7d17;
+    font-size: 1.1em;
+    text-decoration: none !important;
+    color: white !important;
+    text-align: left;
+    font-weight: bold;
+}
+
+.active{
+    background-color: #ff7d17;
+    color: #ff7d17;
+}
+
+.canape {
+    text-align: center;
+}
+
+.dropdown-toggle {
+    font-size: 1.1em;
+    color: #ff7d17;
+    background-color: #35353c;
+}
+.menu {
+    font-size: 1.1em;
+    color: #ff7d17;
+    background-color: #35353c;
+}
+
+.menu-principal {
+    height: 100px !important;
+    padding-top: 40px;
+}
+
+a {
+    font-size: 17px;
+    color: #ff7d17 !important;
+    background-color: #35353c;
+}
+
+footer {
+    background-color: #35353c;
+    color: #ff7d17;
+}
+
+.container-fluid, .canape, .horaires {
+    padding: 0 !important;
+}
+
+.resto-dispo {
+    font-size: 20px;              
+}
